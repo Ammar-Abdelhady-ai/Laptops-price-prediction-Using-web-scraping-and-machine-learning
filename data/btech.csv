@@ -1,0 +1,242 @@
+,Processor,Screen Size(inch),RAM(GB),Graphics Card,brand,SSD(GB),HDD(GB),link,OS,Normal,price EG,store
+0,Intel Core i7-10750H 5.0 GHz,15.6,8.0,NVIDIA GeForce RTX 3060,MSI,512,0,https://btech.com/en/msi-gf65-laptop-intel-i7-10750h-5-0-ghz-512gb.html,2,1,32399.0,btech
+1,Intel core i7-10750H 5.0 GHz,15.6,16.0,NVIDIA GeForce RTX 3060,MSI,512,0,https://btech.com/en/msi-gf65-laptop-intel-i7-10750h-512gb-rtx3060.html,2,1,33749.0,btech
+2,Intel Core i7-10750HH 5.0 GHz,15.6,24.0,NVIDIA GeForce RTX 2070,Lenovo,1000,0,https://btech.com/en/lenovo-legion-7-laptop-intel-i7-5-0-ghz-1tb.html,2,1,43065.0,btech
+3,Intel Core i7-10870H 2.2 GHz,15.6,16.0,Nvidia GeForce RTX 3070 Graphics,HP,1000,0,https://btech.com/en/hp-omen-15-laptop-intel-i7-10870h-2-2-ghz-1tb.html,2,1,49275.0,btech
+4,Intel Core i7-1165G7,13.9,16.0,Intel Iris Xe Graphics (integrated),Huawei,1000,0,https://btech.com/en/huawei-matebook-x-pro-2021-grey-buds-bag.html,2,1,36999.0,btech
+5,Intel Core i7-10870H,15.6,16.0,"NVIDIA GeForce RTX 3050, 4GB",Dell,512,0,https://btech.com/en/dell-g15-5510-i7-10870h-512gb-16gb-ubn-backpk.html,1,0,24499.0,btech
+6,Intel Core i7-10750H,15.6,16.0,"NVIDIA GeForce GTX1660 TI, 6GB",Lenovo,512,0,https://btech.com/en/lenovo-legion-5-i7-10750h-1tb-512-win-10-backpk.html,2,0,28599.0,btech
+7,AMD Ryzen 7 5800HS - Octa Core,14.0,16.0,Nvidia GeForce RTX 3050 4GB,ASUS,16,0,https://btech.com/en/asus-laptop-rog-zephyrusg14-ga401qck2145t.html,2,1,27399.0,btech
+8,Intel Core i7-10750H 2.6 GHz,15.6,16.0,Intel UHD Graphics,HP,512,0,https://btech.com/en/hp-omen-laptop-intel-i7-10750h-2-6-ghz-1tb-512gb.html,2,1,40499.0,btech
+9,Intel Core i7-11800H Octa core processor,15.6,16.0,Nividia GeForce RTX 3060 6GB,Dell,16,0,https://btech.com/en/dell-grey-inspiron5511-g15e0004-laptop.html,1,1,23500.0,btech
+10,Intel Core i5-10500H,15.6,8.0,NVIDIA GTX 1650 4G,MSI,256,0,https://btech.com/en/msi-gf63laptop-intel-1t-256gb-ssd-8ram-nvidia.html,1,1,17999.0,btech
+11,Intel Core i7-1165G7,15.6,8.0,Intel iris XE,Lenovo,256,0,https://btech.com/en/lenovo-ideapad5-1tb-256ssd-8gb-blu.html,1,1,15599.0,btech
+12,Intel Core i7-1165G7,15.6,8.0,Nvidia MX330 2GB,Asus,512,0,https://btech.com/en/asus-k513i7-laptop-i7-15-6inch-512gb-ssd-8gb.html,2,0,17399.0,btech
+13,AMD Ryzen 7 3700U,15.6,8.0,Radeon Vega 8 Graphics,VAIO,512,0,https://btech.com/en/vaio-e15-ryzen-7-3700u-512gb-8gb-w10-sl.html,2,1,16399.0,btech
+14,AMD Athlon Gold 3150U,15.6,4.0,AMD Radeon Graphics (integrated),HP,0,1000,https://btech.com/en/hp-15-gw0056nia-athlon-3150u-1tb-4gb-bk.html,1,1,7899.0,btech
+15,Intel Core i5-1135G7,12.3,8.0,Intel iris Plus Graphics,Microsoft,256,0,https://btech.com/en/microsoft-surface-pro7plus-laptop-i5-12-3inch.html,2,1,34999.0,btech
+16,Intel Core i7-1165G7,15.6,8.0,Intel iris XE,Lenovo,512,0,https://btech.com/en/lenovo-ideapad5-512ssd-8gb-blu.html,1,1,15599.0,btech
+17,Intel,15.6,8.0,Nvidia MX350 2G,HP,128,0,https://btech.com/en/hp-15-dw3019ne-laptop-windows-10-silver.html,2,1,15199.0,btech
+18,Intel Core i7-1165G7,14.0,8.0,Intel Iris XE,MSI,512,0,https://btech.com/en/msi-modern-14b11mol-corei7-14-512ssd-8-win10.html,2,1,15999.0,btech
+19,Intel Core i5-1135G7,15.6,8.0,Intel Iris Xe Graphics,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-5-i5-1135g7-1tb-256gb-dos-bl.html,1,1,12799.0,btech
+20,Intel Core i7-11800H,15.6,16.0,"NVIDIA GeForce RTX 3060, 6GB",Dell,1000,0,https://btech.com/en/dell-g15-5511-spl-ed-i7-11800h-1tb-16gb-bk-1648644336.html,1,1,27999.0,btech
+27,Intel Core i9 processor,16.0,16.0,AMD Radeon Pro 5500M with 4GB of GDDR6,Apple,1000,0,https://btech.com/en/apple-macbook-pro-i9-1tbssd-16gb-spacegray.html,0,1,78165.0,btech
+28,Intel Core i7 processor,16.0,16.0,AMD Radeon Pro 5300M with 4GB of GDDR6,Apple,512,0,https://btech.com/en/apple-macbook-pro-i7-512ssd-16gb-silver.html,0,1,67365.0,btech
+29,Intel Core i7 processor,16.0,16.0,AMD Radeon Pro 5300M with 4GB of GDDR6,Apple,512,0,https://btech.com/en/apple-macbook-pro-i7-512ssd-16gb-spacegray.html,0,1,67365.0,btech
+30,Intel Core i5 processor,13.0,8.0,Intel Iris Plus Graphics,Apple,512,0,https://btech.com/en/apple-macbookair-i5-512ssd-8gb-gold.html,0,1,39015.0,btech
+31,Intel Core i5 processor,13.0,8.0,Intel Iris Plus Graphics,Apple,512,0,https://btech.com/en/apple-macbook-air-i5-512ssd-8gb-silver1.html,0,1,39015.0,btech
+32,Intel Core i5 processor,13.0,8.0,Intel Iris Plus Graphics,Apple,512,0,https://btech.com/en/apple-macbook-air-i5-512ssd-8gb-spacegray.html,0,1,39015.0,btech
+33,Intel Core i3 processor,13.0,8.0,Intel Iris Plus Graphics,Apple,256,0,https://btech.com/en/apple-macbookair-i3-256ssd-8gb-gold.html,0,1,31725.0,btech
+34,Intel Core i3 processor,13.0,8.0,Intel Iris Plus Graphics,Apple,256,0,https://btech.com/en/apple-macbookair-i3-256ssd-8gb-silver.html,0,1,31725.0,btech
+35,Intel Core i3 processor,13.0,8.0,Intel Iris Plus Graphics,Apple,256,0,https://btech.com/en/apple-macbook-air-i3-256ssd-8gb-spacegray.html,0,1,31725.0,btech
+37,Apple M1 Pro Chip Deca-core,14.2,16.0,Apple M1 Pro GPU (16 cores),Apple,1000,0,https://btech.com/en/apple-macbook-pro-2021-1tb-10c-16gb-16c-sl.html,0,1,76999.0,btech
+38,Apple M1 Pro Chip Deca-core,14.2,16.0,Apple M1 Pro GPU (16 cores),Apple,1000,0,https://btech.com/en/apple-macbook-pro-2021-1tb-10c-16gb-16c-sp-gr-1648635037.html,0,1,73999.0,btech
+39,Apple M1 Pro Chip octa-core,14.2,16.0,Apple M1 Pro GPU (14 cores),Apple,512,0,https://btech.com/en/apple-macbook-pro-2021-512gb-16gb-sp-gr.html,0,1,63999.0,btech
+40,Apple M1 Pro Chip octa-core,14.2,16.0,Apple M1 Pro GPU (14 cores),Apple,512,0,https://btech.com/en/apple-macbook-pro-2021-512gb-16gb-silver.html,0,1,63999.0,btech
+41,Apple M1 Chip octa-core,13.3,8.0,Apple M1 GPU (8 cores),Apple,512,0,https://btech.com/en/apple-macbook-pro-512gb-8gb-sp-gr-86544893.html,0,1,43550.0,btech
+42,AMD Ryzen 7-5800H,15.6,16.0,NVIDIA GeForce RTX 3070 8GB,HP,512,0,https://btech.com/en/hp-omen15z-en100-16gb-octacore-nvidia-win10.html,2,1,36099.0,btech
+43,Apple M1 Chip octa-core,13.0,8.0,Integrated Apple M1 GPU (7 cores),Apple,256,0,https://btech.com/en/apple-macbook-air-m1-256gb-8gb-7c-gpu-sp-gy.html,0,1,36999.0,btech
+44,AMD Ryzen 7 5800H,15.6,16.0,NVIDIA GeForce RTX 3070 8G DDR6,Lenovo,1000,0,https://btech.com/en/lenovo-laptop-15ach6h-mouse-m300.html,1,0,36494.0,btech
+45,Intel Core i7-1165G7,13.3,16.0,Intel UHD graphics,HP,1000,0,https://btech.com/en/hp-envy13-ba1018ne-16gb-quadcore-corei7-win10.html,2,1,27299.0,btech
+46,AMD Ryzen 9-5900HX - Octa core,13.4,16.0,Nividia GeForce GTX 1650 4GB,Asus,1000,0,https://btech.com/en/asus-rogflowx13gv301qh-k5098t-laptop-1648121055.html,2,1,30000.0,btech
+47,Intel Core i7-10750H,15.6,16.0,Nvidia RTX 3060 6G,MSI,1000,0,https://btech.com/en/msi-gf65-thinlaptop-intel-1t-ssd-16ram-nvidia-1648555246.html,2,1,25500.0,btech
+48,Intel Core i7-1165G7,13.3,16.0,Intel Iris Xe Graphics,ASUS,1000,0,https://btech.com/en/asus-zenbookux325ea-kg287t-16gb-corei7-intel-win10.html,2,1,24199.0,btech
+49,Intel Core i7-11800H - Octa core,15.6,16.0,Nvidia GeForce RTX 3050 Ti 4G,Lenovo,16,0,https://btech.com/en/lenovo-legion5-15ith6-laptop-mp226.html,1,0,26399.0,btech
+50,intel core i7-1165G7,13.3,16.0,انتل ايريس Xe جرافيكس,لاب,1000,0,https://btech.com/en/asus-zenbookflip-ux363ea-oled007t-grey.html,1,1,25750.0,btech
+51,Intel Core i7-10750H 5.0 GHz,15.6,16.0,NVIDIA GeForce RTX 2060,Asus,512,0,https://btech.com/en/asus-rog-strix-g15-laptop-intel-i7-5-0-ghz-512gb.html,2,1,33615.0,btech
+52,Intel core-i7-11800H 5.0 GHz,15.6,16.0,NVIDIA,Dell,512,0,https://btech.com/en/dell-inspiron-gaming-laptop-intel-i7-15-6-512gb.html,1,0,24888.0,btech
+53,Intel Core i7-11370H (3.3 – 4.8 GHz),15.6,8.0,NVIDIA GeForce RTX 3050 4GB,Asus,512,0,https://btech.com/en/asus-tuf-dash-f15-fx516pc-hn001t-laptop-15-6-512gb.html,2,1,24777.0,btech
+54,Intel Core i5-1035G7 3.7 GHz,13.5,8.0,Intel Iris Plus Graphics,Microsoft,256,0,https://btech.com/en/microsoft-surface-laptop-3-intel-i5-3-7-ghz-256gb.html,2,1,33075.0,btech
+55,Intel Core i5-10500H,15.6,8.0,NVIDIA RTX 3060 4G,MSI,512,0,https://btech.com/en/msi-gf65-thin-laptop-intel-512gb-ssd-8ram-nvidia-1648555428.html,2,1,21299.0,btech
+56,Intel Core i7-1165G7 - Quad Core,13.3,16.0,Intel Iris X Graphics,Asus,1000,0,https://btech.com/en/asus-zenbook13-ultraslim-ux325eakg287t-mp34.html,2,1,23777.0,btech
+57,Intel Core i7-11370H,15.6,16.0,NVIDIA GeForce RTX 3050 Ti 4G,ASUS,512,0,https://btech.com/en/asus-f15-fx516pe-hn001t-laptop-core-i7-11370h-15-6-inch-grey.html,2,1,22999.0,btech
+58,i7-10510U,15.6,16.0,NVIDIA® GeForce® MX130,HP,128,0,https://btech.com/en/hp-15-da2396ne-i7-10510u-1tb-128gb-w10-1648548457.html,2,1,19774.0,btech
+59,AMD Ryzen 7 4800H 2.9 GHz,15.6,16.0,NVIDIA GeForce GTX 1650 4GB,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-gaming-3-laptop-amd-15-6-1tb-256gb-wt.html,1,0,19717.0,btech
+60,AMD Ryzen 7 4800H,17.3,16.0,"AMD RX5500M, GDDR6 4GB",MSI,256,0,https://btech.com/en/msi-bravo-17a4ddr-amd-ryzen7-17-3-1tb-256-16-win10-1648121488.html,2,1,19000.0,btech
+61,Intel Core i5-1135G7,13.3,8.0,NVIDIA GeForce MX 450 2GB,HP,512,0,https://btech.com/en/hp-envy-13-ba1021ne-i5-1135g7-512gb-sl-1646051846.html,2,1,18399.0,btech
+62,Intel Core I7-1165G7,14.0,8.0,NVIDIA GeForce MX330 2GB GDDR5,Asus,512,0,https://btech.com/en/asus-vivobookk413epeb164t-laptop-i7-1165g7-14inch-512gb-8gb-1648548022.html,2,1,17300.0,btech
+63,Intel Core i5-1135G7,13.3,8.0,Intel Iris Xe Graphics,ASUS,512,0,https://btech.com/en/asus-ux325ea-kg235t-i5-1135g7-512gb-gy-1631794914.html,2,1,17820.0,btech
+64,Intel Core i5-10200H,15.6,8.0,"NVIDIA GeForce GTX 1650, 4GB",Dell,512,0,https://btech.com/en/dell-g15-5510-i5-10200h-512gb-8gb-ubuntu-1648748714.html,1,0,16800.0,btech
+65,Intel Core i7-1065G7 - Quad core,15.6,8.0,Nvidia GeForce MX330 2GB,Acer,8,0,https://btech.com/en/acer-aspire3a315-57g753y-laptop-mp264-1648547231.html,2,1,12999.0,btech
+66,Intel Core i7-1165G7,15.6,8.0,Intel iris XE,Lenovo,512,0,https://btech.com/en/lenovo-ideapad5-512ssd-8gb-gry.html,1,1,15599.0,btech
+67,Intel Core i5-1135G7,15.6,8.0,Intel Iris Xe Graphics,ASUS,512,0,https://btech.com/en/asus-laptop-b1500ceae-ej0605r.html,2,1,15377.0,btech
+68,Intel Core i3- 1115G4,12.3,8.0,Intel Iris Plus Graphics,Microsoft,128,0,https://btech.com/en/microsoft-surface-pro7plus-laptop-12-3-inch.html,2,1,24399.0,btech
+69,Intel Core i5-10300H,15.6,8.0,NVIDIA GeForce GTX 1650 Ti Graphics 4GB,Lenovo,512,0,https://btech.com/en/lenovo-ideapadgaming381y4016eax-laptop-i510300h-black.html,1,0,16066.0,btech
+70,Intel Core i5-1035G1,14.0,8.0,"NVIDIA GeForce MX250, 2GB",Lenovo,512,0,https://btech.com/en/lenovo-flex-5-14iil05-i5-1035g1-8gb-gy.html,2,1,16999.0,btech
+71,Intel Core i5-1135G7,15.6,12.0,Intel Iris Xe Graphics (Integrated),Lenovo,256,0,https://btech.com/en/lenovo-ideapad-3-laptop-i5-1135g7-arctic-grey.html,2,1,14399.0,btech
+72,Intel Core-i5-1035G1 (1.0 - 3.6 GHz),14.0,8.0,Intel Iris Xe Graphics,Infinix,512,0,https://btech.com/en/infinix-inbook-x2-laptop-intel-i5-14-512gb-8gb-blue.html,2,1,10909.0,btech
+73,AMD Ryzen 7 3700U - Quad core,15.6,8.0,Integrated AMD Radeon RX Vega 10,Lenovo,512,0,https://btech.com/en/lenovo-ideapad3-15ada6-laptop-mp163.html,1,1,12177.0,btech
+74,Intel Core i5-1035G1,15.6,8.0,Intel UHD Graphics ( Integrated ),HP,0,1000,https://btech.com/en/hp-250-g8-laptop-intel-core-i5-1035g1-astroid-silver.html,1,1,11299.0,btech
+75,AMD Ryzen 5 5500U,15.6,8.0,AMD Radeon Graphics (Integrated),Lenovo,256,0,https://btech.com/en/lenovo-ideapad-3-15alc6-laptop-ryzen-5-5500u-blue.html,2,1,11212.0,btech
+76,AMD Ryzen 5 5500U - Hexa core,15.6,8.0,Integrated AMD Radeon Graphics,Lenovo,8,0,https://btech.com/en/lenovo-ideapad3-15alc6-laptop-mp224.html,2,1,11211.0,btech
+77,Ryzen 5 5500U,15.6,8.0,AMD Radeon Graphics ( Integrated),Hp,256,0,https://btech.com/en/hp-15-ef2127wm-laptop-amd-ryzen-5-5500u-silver.html,2,1,10899.0,btech
+78,Ryzen 5 5500U,15.6,8.0,AMD Radeon Graphics (Integrated),Hp,256,0,https://btech.com/en/hp-15-ef2126wm-laptop-amd-ryzen-5-5500u-spruce-blue.html,2,1,10777.0,btech
+79,AMD Ryzen 3 3250U 2.6 GHz,14.0,4.0,AMD Radeon Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-v14-laptop-amd-ryzen-3-3250u-14-1tb-4gb.html,1,1,6969.0,btech
+80,intel core I7-11800H,15.6,16.0,كارت نفيديا جي فورس RTX 3050 Ti، سعة 4 جيجا بايت,لاب,512,0,https://btech.com/en/asus-tuf-f15-fx506heb-bq229t-i7-11800h-eclipse-gray.html,1,1,23590.0,btech
+81,AMD Ryzen 5 3500U 3.7 GHz,27.0,16.0,AMD Radeon Vega 8 Graphics,HP,512,0,https://btech.com/en/hp-all-in-one-laptop-amd-3-7-ghz-1tb-hdd-512gb.html,2,1,26933.0,btech
+82,ايه amd ryzen 5-4600H,15.6,16.0,نفيديا GTX 1650Ti، سعة 4 جيجا،,لاب,256,0,https://btech.com/en/lenovo-legion-5-laptop-amd-ryzen-5-4600h-15-6-1-tb-265-gb-16gb-nvidia-geforce-gtx-1650ti-4gb-win-10-blk.html,1,1,18999.0,btech
+83,Intel Core i7-10870H - Octa Core,15.6,16.0,NVIDIA GeForce GTX 1650 4G,Asus,256,0,https://btech.com/en/asus-vivobook15-x571lh-bq007t-mp38.html,2,1,18808.0,btech
+85,Intel Core i7-1165G7,15.6,8.0,NVIDIA GeForce MX450 2GB,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-15itl6-1tb-abyss-blue.html,1,1,15379.0,btech
+86,Intel Core i5-1135G7,15.6,8.0,Intel Iris Xe Graphics,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-5-i5-1135g7-1tb-256gb-dos-gy-1646926255.html,1,1,12299.0,btech
+87,Intel Core i3-10110U,15.6,8.0,Intel UHD Graphics (integrated),Huawei,256,0,https://btech.com/en/huawei-matebook-d-15-i3-10110u-256gb-8gb-w10-1642427795.html,2,1,11066.0,btech
+88,intel core I7-11370H,15.6,16.0,كارت نفيديا RTX 3050TI، سعة 4 جيجا,لاب,512,0,https://btech.com/en/asus-tuf-dash-f15-fx516pe-hn019t-i7-11370h-white.html,1,1,23075.0,btech
+89,AMD Ryzen 7 4800H (2.9 – 4.2 GHz),15.6,16.0,NVIDIA GeForce RTX 3050 4GB,Asus,512,0,https://btech.com/en/asus-tuf-a15-fa506ic-hn018t-laptop-amd-15-6-512gb.html,2,1,22670.0,btech
+90,Core-i5-1135G7,13.3,8.0,Intel Iris X Graphics,HP,512,0,https://btech.com/en/hp-pavilion-13-bb0011nelaptop-intel-irisx-graphics.html,2,1,18099.0,btech
+91,Ryzen 5 4500U,14.0,8.0,Integrated AMD Radeon,Dell,256,0,https://btech.com/en/dell-inspiron-7405-2-in-1-laptop-ryzen-5-4500u-14-in-256gb-8gb-amd-w10.html,2,1,15777.0,btech
+92,‎Intel Core i5,15.6,8.0,NVIDIA GeForce GTX 1650 4GB,Dell,512,0,https://btech.com/en/dell-g15-5510-gaming-laptop-intel-core-i5-10500h-15-6-inch-512gb-ssd-8gb-ram-nvidia-geforce-gtx-1650-4gb-ubuntu-shadow-grey.html,1,0,16055.0,btech
+93,intel core i5-1135G7,15.6,8.0,نفيديا جي فورس MX350 بسعة 2 جيجا بايت,لاب,0,1000,https://btech.com/en/hp-15dw3042-laptop-mp8133.html,1,1,13626.0,btech
+94,ايه amd ryzen 5 3450U,15.6,8.0,ايه ام دي راديون جيجا GPU 8,لاب,256,0,https://btech.com/en/dell-inspiron-3505-laptop-ryzen-5-3450u-15-6-inch-256-gb-ssd-8gb-ram-amd-radeon-8-gb-gpu-windows-10-black.html,1,1,11899.0,btech
+95,Intel Core i3-1115G4,15.6,4.0,Intel UHD Graphics,Dell,1000,0,https://btech.com/en/dell-vostro3510-4gb-quadcore-core-i3-intel-dos.html,1,1,9309.0,btech
+97,Intel Core i5-1135G7 - Quad core,15.6,8.0,Nvidia GeForce MX350 2GB,Dell,0,1000,https://btech.com/en/dell-vostro153510-laptop-ici51135g7.html,1,1,12672.0,btech
+98,Intel Core i5-1135G7,15.6,4.0,Nvidia GeForce MX450 2GB,Dell,0,1000,https://btech.com/en/dell-latitude3520-laptop-i51135g7-nvidia-geforce-mx450-2gb-1650310004.html,1,1,15199.0,btech
+99,Intel Core i7-11800H,15.6,16.0,"NVIDIA GeForce RTX 3060, 6GB",Dell,1000,0,https://btech.com/en/dell-g15-5511-i7-11800h-1tb-16gb-ubuntu-gy.html,1,0,33099.0,btech
+100,AMD Ryzen 7 4800H,15.6,16.0,"NVIDIA GeForce GTX 1650TI, 4GB",Lenovo,512,0,https://btech.com/en/lenovo-3-15arh05-ryzen-7-4800h-1tb-512gb-16gb.html,2,0,23599.0,btech
+101,Intel Core i5-10300H,15.6,16.0,"NVIDIA GeForce GTX 1650, 4GB",Lenovo,128,0,https://btech.com/en/lenovo-gaming-3-i5-10300h-1tb-128gb-16-bk.html,1,0,21199.0,btech
+102,Intel Core i3-1005G1,15.6,4.0,Intel Shared-D,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-i3-1tb-4gb-bl.html,1,1,8999.0,btech
+103,Intel Core i7-1165G7,14.5,16.0,"NVIDIA GeForce MX350, 2GB",Dell,1000,0,https://btech.com/en/dell-7400-i7-1165g7-1tb-ssd-16gb-win-10-sl.html,2,1,30899.0,btech
+104,Intel Core i7-1165G7,15.6,8.0,Nvidia MX350 2G,Dell,0,1000,https://btech.com/en/dell-vostro-3510-i7-1tb-8gb-ubuntu-bk.html,1,1,16299.0,btech
+105,Intel Core i7-10870H,15.6,16.0,"NVIDIA GeForce RTX 3050, 4GB",Dell,512,0,https://btech.com/en/dell-inspiron-i7-15-6-512-8-nvidia-grey.html,2,1,29499.0,btech
+106,AMD Ryzen 7 5800H,16.0,16.0,"NVIDIA GeForce RTX 3070, 8GB",Lenovo,512,0,https://btech.com/en/lenovo-5-pro-ryzen-7-5800h-512gb-16gb-win-11.html,2,1,43899.0,btech
+107,Intel Core i5-1135G7,15.6,4.0,Nvidia MX 350 2G,Dell,0,1000,https://btech.com/en/dell-vostro-3510-i5-15-6-1tb-4gb-ubuntu.html,1,1,13699.0,btech
+108,Intel Core i3-1005G1,15.6,4.0,Intel HD Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-15iml05-i3-1005g1-1tb-4gb.html,2,1,8999.0,btech
+109,intel core i5-1135G7,14.0,8.0,انتل ايريس Xe جرافيكس,لاب,256,0,https://btech.com/en/dell-inspiron5406-i5-1135g7-256gb-8gb-gr.html,1,1,15333.0,btech
+110,Intel Core i3-10110U,15.6,4.0,"NVIDIA GeForce MX130, 2GB",Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-15ilm05-i3-10110u-1tb-4gb-blue-1631789192.html,1,1,8760.0,btech
+112,intel core i3-10110U,15.6,4.0,نفيديا جي فورس MX130 بسعة 2 جيجا بايت,15IML05،,0,1000,https://btech.com/en/lenovo-laptop-mouse-logitech-mpo28-1.html,1,1,8760.0,btech
+113,i5-8265U,15.6,8.0,HD Graphics,Lenovo,256,0,https://btech.com/en/lenovo-thinkpadt590-laptop-i58265u-black.html,2,1,27199.0,btech
+114,intel core i3-1005G1,14.1,4.0,انتل UHD,لاب,0,1000,https://btech.com/en/hp-240-g7-1l3l4ea-laptop-intel-core-i3-1005g1-14-1-inch-1tb-hdd-4gb-ram-intel-uhd-graphics-dos-black.html,1,1,7272.0,btech
+115,amd Ryzen 5-4500U,14.0,8.0,ايه ام دي راديون جرافيكس,لاب,256,0,https://btech.com/en/msi-modern14b4mw-laptop-amd-r5-4500u-14-inch.html,1,1,11511.0,btech
+116,intel core i5-1135G7,15.6,8.0,انتل ايريس Xe,لاب,0,1000,https://btech.com/en/dell-vostro-3510-laptop-mp7123.html,1,1,12880.0,btech
+118,Intel Core i5-1135G7,15.6,8.0,"NVIDIA GeForce MX350, 2GB GDDR5",HP,512,0,https://btech.com/en/hp-15-eg0061ne-i5-1135g7-512gb-8gb-teal.html,2,1,16199.0,btech
+121,Intel Core i7-10750H,15.6,16.0,"NVIDIA GeForce RTX™ 2060 Max-Q, 6GB",Lenovo,1000,0,https://btech.com/en/lenovo-s7-15imh5-i7-10750h-1tb-16gb-dos.html,1,1,34399.0,btech
+122,Intel core-i3-10110U 2.1 GHz,15.6,4.0,NVIDIA,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-laptop-intel-i3-15-6-1tb-4gb.html,1,1,9199.0,btech
+123,Intel Core i7-1165G7,13.3,8.0,Intel Iris Xe Graphics,HP,512,0,https://btech.com/en/hp-envy-13m-bd0033dx-i7-13-3-512-8-win10.html,2,1,25599.0,btech
+126,Intel Core i5-1035G1 - Quad Core,12.4,8.0,Intel UHD Graphics,Microsoft,128,0,https://btech.com/en/microsoft-surfacego-mp39.html,2,1,13833.0,btech
+127,Intel Core i7-1165G7 2.8 GHz,14.0,8.0,Intel Iris Xe Graphics,HP,512,0,https://btech.com/en/hp-pavilion-x360-laptop-intel-14-512gb.html,1,1,18299.0,btech
+128,i7-10750H,15.6,16.0,NVIDIA Geforce GTX 1660,Dell,512,0,https://btech.com/en/dell-g5-5500-i7-10750h-512-ssd-16-win-10.html,2,0,29799.0,btech
+129,Microsoft SQ 2,13.0,16.0,Intel Iris Plus Graphics,Microsoft,256,0,https://btech.com/en/microsoft-surface-prox-laptop-sq2-256gb-ssd.html,2,1,40499.0,btech
+130,Intel Core i5-1135G7,15.6,8.0,NVIDIA GeForce MX350 2GB,Lenovo,0,1000,https://btech.com/en/lenovo-idea-pad-3-15itl6-intel-dos-abyss-blue.html,1,1,12727.0,btech
+131,AMD Ryzen5-3450U,15.6,8.0,AMD Radeon Vega 8 Graphics,Dell,256,0,https://btech.com/en/dell-inspiron-3505-amd-ryzen5-3450u-256gb-8gb-blk.html,2,1,13999.0,btech
+132,Intel Core i7-1165G7,15.6,8.0,Intel iris XE,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-5-laptop-intel-iris-xe-dos-grey.html,1,1,15379.0,btech
+133,AMD Ryzen 3 3200U,15.6,4.0,AMD Radeon Vega 3 Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-l340-15api-amd-3-3200u-1tb-blue.html,1,1,8799.0,btech
+134,Intel Core i7-1165G7,15.6,8.0,NVIDIA GeForce MX450 2GB,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad3-15itl6-arctic-grey-14.html,1,1,15379.0,btech
+135,Intel Core i7-1165G7,14.0,16.0,Intel Iris Xe Graphics,Huawei,512,0,https://btech.com/en/huawei-14-wfe9b-i7-1165g7-512gb-16gb-gy.html,2,1,26099.0,btech
+136,Intel Core-i5-1035G1 (1.0 - 3.6 GHz),14.0,8.0,Intel Iris Xe Graphics,Infinix,512,0,https://btech.com/en/infinix-inbook-x2-laptop-intel-i5-1035g1-14-512gb.html,2,1,10909.0,btech
+137,Intel Core i5-1135G7,14.5,8.0,Intel Iris Xe Graphics (integrated),Dell,512,0,https://btech.com/en/dell-7400-i5-1135g7-512gb-ssd-8gb-win-10-sl.html,2,1,24899.0,btech
+138,Intel Core-i7-1065G7 (1.3 - 3.9 GHz),14.0,8.0,Intel Iris Xe Graphics,Infinix,512,0,https://btech.com/en/infinix-inbook-x2-laptop-intel-i7-14-512gb-8gb.html,2,1,13109.0,btech
+139,Intel Core i5-1135G7,15.6,12.0,Intel Iris XE Graphics,Lenovo,256,0,https://btech.com/en/lenovo-id3-i5-256ssd-12-win11-plgrey.html,2,1,15099.0,btech
+141,AMD R7-4800H,15.6,16.0,AMD RX5600M 6G,Dell,512,0,https://btech.com/en/dell-g5-5505-gaming-laptop-amd-r7-4800h-15-6.html,2,0,27699.0,btech
+142,Ryzen 5 3500U,15.6,4.0,Radeon VGA,Lenovo,0,1000,https://btech.com/en/lenovo-l340-15api-amd-3500u-1tb-4gb-blue-1646565208.html,1,1,10300.0,btech
+143,Microsoft SQ 2,13.0,16.0,Intel Iris Plus Graphics,Microsoft,256,0,https://btech.com/en/microsoft-surface-prox-laptop-sq-2-256gb-16gb.html,2,1,40499.0,btech
+144,Intel Core i3-1125G4,14.0,8.0,Intel UHD Graphics,HP,512,0,https://btech.com/en/hp-pavilionx360convertible14-dy0144ne-dos.html,1,1,12399.0,btech
+145,AMD Ryzen 7 4700U,15.6,4.0,AMD Radeon Graphics,HP,256,0,https://btech.com/en/hp-15s-eq1024ne-4gb-octacore-amd-dos.html,1,1,11199.0,btech
+146,intel core I3-1115G4,14.0,4.0,انتل UHD جرافيكس,لاب,256,0,https://btech.com/en/asus-x415ea-eb003w-laptop-i3-1115g4-14-inch-silver.html,1,1,8395.0,btech
+147,Intel Core i5-1135G7,15.6,4.0,NVIDIA GeForce MX350 2GB,HP,0,1000,https://btech.com/en/hp-15-dw3023ne-i5-1135g7-1tb-4gb-w10.html,2,1,13299.0,btech
+148,AMD Ryzen 7 3700U - Quad core,15.6,16.0,AMD Radeon Vega 10 Graphics,Dell,512,0,https://btech.com/en/dell-vostro-153515-laptop-mp7m.html,1,1,13277.0,btech
+149,Intel Core i5-10300H,15.6,8.0,AMD Radeon RX Vega,Lenovo,0,7,https://btech.com/en/lenovo-ideapad-l340-laptop-amd-r7-3700u-1tb.html,1,0,13099.0,btech
+150,Intel Core i5-11300H,15.6,8.0,Nvidia GTX1650 4G,Lenovo,512,0,https://btech.com/en/lenovo-gaming-3-i5-11300h-512ssd-8gb-bk.html,2,0,18699.0,btech
+151,AMD Ryzen 7-5800H,15.6,16.0,NVIDIA GeForce RTX 3050,Lenovo,2,0,https://btech.com/en/lenovo-lenovogaming3-16gb-octacore-nvidia-dos-1646924812.html,1,0,22364.0,btech
+152,Intel Core i3-1115G4,15.6,4.0,Intel UHD Graphics,Dell,0,1000,https://btech.com/en/dell-vostro-3500-i3-1115g4-1tb-4gb-ub-bk.html,1,1,9699.0,btech
+154,AMD Ryzen 5 3500U - Quad core,15.6,8.0,Integrated AMD Radeon Vega 8,Lenovo,512,0,https://btech.com/en/lenovo-ideapad3-15ada6-laptop.html,1,1,11066.0,btech
+155,AMD Ryzen 7 5800H - Octa core,16.0,16.0,Nvidia RTX 3060 6GB,Lenovo,1000,0,https://btech.com/en/lenovo-legion5pro-16ach6h-laptop-mp163.html,1,0,34277.0,btech
+156,AMD,15.6,8.0,AMD Radeon,HP,256,0,https://btech.com/en/hp-15-ef2127wm-laptop-windows-11-silver.html,2,1,11399.0,btech
+157,AMD ‎Ryzen 5 3500U,15.6,4.0,AMD Radeon Graphics,Acer,0,1000,https://btech.com/en/acer-aspire3-a31523r43b-laptop-amdryzen53500u-silver.html,2,1,8499.0,btech
+158,Intel Core i5-1035G1,15.6,8.0,Intel UHD Graphics,HP,0,1000,https://btech.com/en/hp-15-dw2063ne-i5-1035g1-1tb-8gb-sl-w10.html,2,1,12099.0,btech
+159,Intel Core i5-1135G7,15.6,8.0,Intel Iris X Graphics,HP,512,0,https://btech.com/en/hp-probook-450-g8-i5-1135g7-512gb-8gb-win-sl.html,2,1,17299.0,btech
+161,Intel Core i5-1155G7 - Quad core,14.0,8.0,Intel Iris Xe Graphics,Dell,8,0,https://btech.com/en/dell-inspiron-5410-laptop-mp233.html,2,1,14955.0,btech
+162,Intel Core i7- 1165G7,12.3,16.0,Intel Iris Plus Graphics,Microsoft,512,0,https://btech.com/en/microsoft-surfacepro7plus1nd00006-laptop-12-3inch.html,2,1,51499.0,btech
+163,AMD Ryzen 5 3450U,15.6,8.0,AMD Radeon Vega 8 GPU,Dell,512,0,https://btech.com/en/dell-inspiron3515-amdryzen5-3450u-15-6inch-ubuntu-black-1648636759.html,1,1,10329.0,btech
+164,Intel Core i5-1035G7,13.5,8.0,Intel Iris Plus Graphics,Microsoft,128,0,https://btech.com/en/microsoft-surface-laptop-3-pkh00013-13-5inch.html,2,1,27499.0,btech
+165,Intel Core i3-1115G4 - Dual core,15.6,4.0,Intel UHD Graphics,Dell,0,1000,https://btech.com/en/dell-vostro153510-laptop-ici31115g4.html,1,1,9051.0,btech
+166,Intel Core i7-1165G7,13.9,16.0,Intel Iris Xe Graphics (integrated),Huawei,1000,0,https://btech.com/en/huawei-matebook-x-pro-2021-1tb-16gb-grey.html,2,1,41699.0,btech
+167,Intel Core i3-10110U - Dual Core,15.6,4.0,Intel UHD Graphics,Asus,256,0,https://btech.com/en/asus-x509fa-br949t-mp32-1648742295.html,2,1,7999.0,btech
+168,AMD R7-4800H,15.6,16.0,Nvidia GTX1650TI 4G,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-3-gaming-laptop-15-6-inch-1tb.html,1,0,24099.0,btech
+169,Intel Core i3-10110U - Dual core,15.6,4.0,Intel UHD Graphics,Asus,256,0,https://btech.com/en/asus-15x509fa-br949t-laptop-1648745937.html,2,1,8092.0,btech
+170,AMD 3020e,15.6,4.0,Integrated AMD Radeon Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-amd-3020e-1tb-4gb-bl.html,1,1,6299.0,btech
+171,Intel Core i3-1005G1,15.6,4.0,Intel UHD Graphics,لاب,0,1000,https://btech.com/en/hp-250-g8-notebook-inteli3-15-6-1tb-4gb-intel-uhd-1648754628.html,1,1,8386.0,btech
+172,AMD,15.6,8.0,AMD Radeon,HP,256,0,https://btech.com/en/hp-15-ef2127wm-laptop-windows-10-blue.html,2,1,11299.0,btech
+173,Intel Core i7-11800H - Octa Core,15.6,16.0,Nvidia GeForce RTX 3070 8GB,MSI,16,0,https://btech.com/en/msi-gp66-leopard-11ug003-laptop.html,2,1,39999.0,btech
+174,Microsoft SQ 2,13.0,16.0,Intel Iris Plus Graphics,Microsoft,512,0,https://btech.com/en/microsoft-surface-prox-laptop-sq2-13-inch.html,2,1,48199.0,btech
+175,Intel Core i5-1135G7,15.6,8.0,NVIDIA GeForce MX350 2GB,HP,256,0,https://btech.com/en/hp-15-dw3014ne-i5-15-6-256-8-nvidia-dos.html,1,1,13999.0,btech
+176,Intel Core i9-11900H - Octa Core,16.0,16.0,Nvidia GeForce RTX 3070 8GB,Asus,16,0,https://btech.com/en/asus-rog-gu603hr-k8008t-laptop.html,2,1,50999.0,btech
+177,Intel Celeron -N4020,15.6,4.0,Intel UHD 600,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad3-1tbhdd-4gb-gry.html,2,1,6799.0,btech
+178,Intel Core i5 1035G1 - Quad core,15.6,4.0,Integrated Intel UHD Graphics,HP,0,1000,https://btech.com/en/hp-250g8-notebook-pc59u39ea-laptop.html,2,1,12299.0,btech
+179,Intel Core i3-10110U,15.6,4.0,NVIDIA GeForce MX130 2GB,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3lap-top-grey.html,1,1,20000.0,btech
+180,AMD Ryzen7-5700U,13.3,16.0,AMD Radeon Graphics,Lenovo,512,0,https://btech.com/en/lenovo-yoga6-2n1-amdryzen7-5700u-512-16-blue.html,1,1,27499.0,btech
+181,Microsoft SQ 2,13.0,16.0,Intel Iris Plus Graphics,Microsoft,512,0,https://btech.com/en/microsoft-surface-pro-x-laptop-sq-2-512gb-16gb.html,2,1,48199.0,btech
+182,AMD R7-4800H,15.6,16.0,Nvidia GTX1650 4G,Lenovo,256,0,https://btech.com/en/lenovo-ideapad3-gaming-laptop-r7-4800h-15-6.html,1,0,24099.0,btech
+183,Intel Core i5-1035G4 - Quad core,15.6,4.0,Integrated Intel UHD Graphics,HP,0,1000,https://btech.com/en/hp-250g8-notebook-pc43w29ea-laptop-mp125.html,2,1,10999.0,btech
+184,Intel Core i5-1135G7,15.6,8.0,Nvidia MX130 2G,Dell,0,1000,https://btech.com/en/dell-vostro-3500-laptop-i5-1135g7-15-6-inches.html,1,1,13599.0,btech
+185,Intel Celeron -N4020,15.6,4.0,Intel UHD 600,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad3-1tbhdd-4gb-blu.html,2,1,6799.0,btech
+186,Intel Core I7-11800H (2.3 - 4.6 GHz),15.6,16.0,NVIDIA GeForce RTX 3050,Dell,512,0,https://btech.com/en/dell-g15-5511-gaming-laptop-intel-15-6-16gb-512gb-1649935564.html,1,0,22999.0,btech
+187,Intel Core I7 11800H,15.6,16.0,Nvidia Geforce RTX 3060 6GB,Dell,1000,0,https://btech.com/en/dell-g155511-laptop-corei711800h-16gb-ram-1649935887.html,1,0,27000.0,btech
+188,Intel Core i3 10110U,15.6,4.0,"NVIDIA GeForce MX130, 2GB",Lenovo,0,1000,https://btech.com/en/lenovo-ip3-i3-1005g1-1tb-4gb-win-mx130-bk.html,2,1,10499.0,btech
+189,Intel Core i7-10750H,15.6,8.0,NVIDIA GeForce GTX 1650 4GB GDDR6 Graphics,Lenovo,512,0,https://btech.com/en/lenovo-ideapad-gaming3-81y4001hus-laptop-i710750h-windows10.html,2,0,20500.0,btech
+190,Intel Core i3-1115G4,15.6,4.0,Intel UHD Graphics,HP,256,0,https://btech.com/en/hp-15s-fq2012nm-i3-1115g4-256gb-4gb-w10.html,2,1,9699.0,btech
+191,Intel Core i7-11800H,15.6,16.0,"NVIDIA GeForce RTX 3050 Ti, 4GB",Lenovo,0,1000,https://btech.com/en/lenovo-legion-5-laptop-intel-core-i7-11800h-1tb-hdd.html,1,1,26500.0,btech
+192,AMD Ryzen 7 3700U,15.6,8.0,Radeon Vega 8 Graphics,VAIO,512,0,https://btech.com/en/vaio-e15-ryzen-7-3700u-512gb-8gb-w10-bk.html,2,1,16399.0,btech
+193,Intel Core i7-11800H,16.0,16.0,"NVIDIA-RTX 3050 Ti, 4GB",Lenovo,512,0,https://btech.com/en/lenovo-legion-5-pro-16ith6-gaming-laptop-i7-11800h-16inch.html,1,0,28500.0,btech
+194,AMD Ryzen 5 4500U,15.6,8.0,AMD Radeon Graphics,Lenovo,512,0,https://btech.com/en/lenovo-ideapad-5-ryzen-5-4500u-512gb-8gb-gy.html,2,1,12599.0,btech
+195,Intel Core i7-11370H,15.6,8.0,Nvidia GeForce RTX 3050Ti 4GB,Lenovo,256,0,https://btech.com/en/lenovo-gaming-3-laptop-i711370h-1tb-hdd-256gb-ssd.html,2,0,21999.0,btech
+196,AMD R5-5600H,15.6,8.0,Nvidia GTX1650 4G,Lenovo,512,0,https://btech.com/en/lenovo-gaming-3-amd-r5-5600h-512gb-8-bk.html,2,0,19499.0,btech
+198,AMD Ryzen 7 5800H,16.0,16.0,"NVIDIA GeForce RTX 3070, 8GB",Lenovo,512,0,https://btech.com/en/lenovo-5-pro-ryzen-7-5800h-512gb-16gb-3070-gy.html,2,1,43599.0,btech
+199,i5-10300H,15.6,8.0,GTX 1650,Dell,256,0,https://btech.com/en/dell-3500-laptop-i5-10300h-black-1629885365.html,1,1,17699.0,btech
+201,ايه amd ryzen 7 4800H,15.6,16.0,نيفيديا جيفورس GTX 1650 سعة 4 جيجا بايت,لاب,512,0,https://btech.com/en/lenovo-legion-5-ryzen-7-4800h-1tb-512gb-bk.html,1,1,25699.0,btech
+202,AMD Ryzen 3 3200U,15.6,8.0,كارت شاشة ايه ام دي راديون فيجا 3,لاب,0,1000,https://btech.com/en/lenovo-ideapad-s145-15api-amd-ryzen3-3200u.html,1,1,8858.0,btech
+204,intel core i3-1115G4,15.6,4.0,انتل الترا اتش دي جرافيكس,لاب,0,1000,https://btech.com/en/dell-vostro15-3510-laptop-i3-1115g4-black.html,1,1,8728.0,btech
+205,Intel Core i3-1115G4,15.6,4.0,Intel UHD Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-i3-1115g4-1tb-4gb-win-blue.html,2,1,9999.0,btech
+206,intel core i3-1115G4,15.6,4.0,انتل UHD جرافيكس,لاب,0,1000,https://btech.com/en/dell-vostro-3510-laptop-mp7124.html,1,1,8760.0,btech
+207,Intel i7-11800H,15.6,16.0,Nvidia RTX3050 4G,Dell,512,0,https://btech.com/en/dell-g15-5511-i7-11800h-512-16-gry.html,2,1,26399.0,btech
+208,intel core i5-10500H,15.6,8.0,نيفيديا RTX 3050 سعة 4 جيجا,ديل,512,0,https://btech.com/en/dell-g15-5510-i5-10500h-15-6-512-8gb-win-10-grey-1639991023.html,1,1,17500.0,btech
+209,AMD Ryzen 5 3500U,15.6,8.0,Radeon Vega 8 Graphics,VAIO,512,0,https://btech.com/en/vaio-e15-ryzen-5-3500u-512gb-8gb-w10.html,2,1,14599.0,btech
+211,Intel Core i7-11800H,16.1,16.0,NVIDIA GeForce RTX 3050Ti 4GB,HP,512,0,https://btech.com/en/hp-victus-16-d0013ne-i7-11800h-512gb-win-10-sl.html,2,1,26699.0,btech
+214,Intel,13.3,8.0,Intel Iris XE,HP,512,0,https://btech.com/en/hp-envy-x360-13m-bd1033dx-laptop-win10-silver.html,2,1,22899.0,btech
+216,i7-10750H,15.6,16.0,NVIDIA GeForce 1650,Lenovo,256,0,https://btech.com/en/lenovo-gaming-3-i3-10750h-1tb-256gb-bk.html,1,0,23999.0,btech
+218,Intel Core i5-1135G7,15.6,8.0,Nvidia MX350 2G,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad3-i5-1135g7-1tb-8-gld.html,1,1,14299.0,btech
+219,Intel Core i3-1005G1,15.6,4.0,Intel UHD Graphics (integrated),Lenovo,0,1000,https://btech.com/en/lenovo-v15-i3-1005g1-1tb-4gb-intel-uhd-1642594820.html,1,1,7569.0,btech
+220,Intel,14.0,8.0,Intel Iris XE,HP,256,0,https://btech.com/en/hp-pavilion-x360-14m-dw1023dx-laptop-win10-gold.html,2,1,15999.0,btech
+221,Intel Core i7-1165G7 - Quad Core,15.6,8.0,NVIDIA GeForce MX330 2G,Asus,512,0,https://btech.com/en/asus-x515ep-bq254t-mp33.html,2,1,14388.0,btech
+222,AMD R7-5800H,15.6,16.0,Nvidia RTX3050Ti 4G,Lenovo,512,0,https://btech.com/en/lenovo-legion5-amd-r7-5800h512-16-bk.html,2,1,28099.0,btech
+223,Intel Core i7-1195G7 2.9 GHz - 5.0 GHz,13.3,8.0,Intel Iris Xe Graphics,لاب,512,0,https://btech.com/en/hp-envy-x360-13m-bd1033dx-laptop-intel-13-3-512gb.html,1,1,19111.0,btech
+224,AMD,15.6,8.0,AMD Radeon,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-3-laptop-windows-11-gold.html,2,1,11299.0,btech
+225,AMD Ryzen 5 3450U ‎2.1 GHz,15.6,8.0,AMD Radeon Vega 8 Graphics,Dell,512,0,https://btech.com/en/dell-vostro-3515-laptop-amd-15-6-512gb-1645972722.html,1,1,10188.0,btech
+226,Intel Core i5-11400H,16.1,8.0,NVIDIA RTX 3050 4GB,HP,256,0,https://btech.com/en/hp-victus-16-d0023dx-laptop-intelcorei5-win11-blue-1646918803.html,2,0,17579.0,btech
+227,AMD Athlon 3020E Dual core,15.6,4.0,AMD Radeon Graphics (integrated),Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-ath-3020e-1tb-4gb-amd-grey.html,2,1,6599.0,btech
+228,I5-10300H intel core,16.1,8.0,نفيديا GTX 1650، سعة 4 جيجا، GDDR6,HP,512,0,https://btech.com/en/hp-pavilion-116-a0026ne-i5-10300h-16-1-512-gb-8gb-dos-black.html,1,1,15555.0,btech
+230,intel core i5-1135G7,15.6,8.0,انتل ايريس Xe جرافيكس (كارت مدمج),لاب,0,1000,https://btech.com/en/lenovo-ideapadl3-15itl6-laptop-mp6128.html,1,1,12360.0,btech
+232,intel core i5 - 10200H,15.6,8.0,نيفيديا جيفورس GTX 1650 سعة 4 جيجا بايت,لاب,512,0,https://btech.com/en/dell-g155510-laptop-intel-corei5-10200h-grey-1640692282.html,1,1,15555.0,btech
+234,AMD Ryzen 5 3500U Quad-core,15.6,8.0,AMD Radeon Graphics (integrated),Lenovo,512,0,https://btech.com/en/lenovo-ideapad-3-r5-3500u-8gb-grey-win-10.html,2,1,10499.0,btech
+235,intel core i7-1165G7,15.6,8.0,نفيديا جي فورس MX350 GDDR5 جرافيكس بسعة 2 جيجا,لاب,0,1000,https://btech.com/en/dell-vostro3510-laptop-i7-1165g7-15-6-inch-black.html,2,1,15015.0,btech
+236,AMD Ryzen 5 4500U,14.0,8.0,AMD Radeon Graphics,MSI,256,0,https://btech.com/en/msi-modern-14b4mw-amd-ryzen5-14-256-8-dos.html,1,1,11099.0,btech
+237,Intel Core i7-11370H (3.3 – 4.8 GHz),15.6,16.0,NVIDIA GeForce RTX 3060 6GB,Asus,512,0,https://btech.com/en/asus-tuf-dash-f15-fx516pm-hn023w-laptop-15-6-512gb.html,2,1,29858.0,btech
+238,intel core I7-1165G7,15.6,8.0,نفيديا جي فورس MX330، سعة 2 جيجا بايت,لاب,512,0,https://btech.com/en/asus-x515ep-bq254t-i7-1165g7-transparentsilver.html,1,1,14420.0,btech
+239,Intel Core i5-1135G7,15.6,8.0,"NVIDIA GeForce MX350, 2GB",Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-i5-1135g7-1tb-8gb-dos-blue.html,1,1,14299.0,btech
+240,Intel Core i5-1135G7 - Quad cores,13.3,8.0,Integrated Intel Iris Xe Graphics,Dell,32,0,https://btech.com/en/dell-inspiron-7306-2in1x360-laptop.html,2,1,15444.0,btech
+241,Intel Core i5-10210U,15.6,8.0,Intel UHD Graphics ( Integrated ),Lenovo,0,1000,https://btech.com/en/lenovo-v15-iml-laptop-intel-core-i5-10210u-iron-grey.html,1,1,10333.0,btech
+242,Intel Core i5-1135G7,14.0,8.0,"NVIDIA GeForce MX350, 2GB",Lenovo,256,0,https://btech.com/en/lenovo-thinkpad-e14-gen-2-laptop-intel-core-i5-1135g7-14-inch-black.html,1,1,15727.0,btech
+243,AMD Ryzen 7 5800H Octa-core,15.6,16.0,"AMD Radeon RX 6600M, 8GB",Lenovo,0,1000,https://btech.com/en/lenovo-legion-5-r7-5800h-1tb-16gb-amd-dos-wh.html,1,1,32299.0,btech
+244,Intel i7-11800H,15.6,16.0,"NVIDIA GeForce RTX 3060, 6GB",Dell,512,0,https://btech.com/en/dell-g15-5511-i7-11800h-512-16-rtx-60-dos-gy.html,1,1,27199.0,btech
+245,Intel Core i5-10210U,15.6,8.0,"NVIDIA GeForce MX110, 2GB",Dell,0,1000,https://btech.com/en/dell-3510-i5-10210u-1tb-8gb-mx110-ubuntu.html,1,1,14299.0,btech
+246,AMD,15.6,8.0,AMD Radeon,Lenovo,256,0,https://btech.com/en/lenovo-ideapad-3-laptop-windows-11-blue.html,2,1,11299.0,btech
+247,Intel Core i3-1115G4,15.6,4.0,Intel UHD Graphics,Dell,0,1000,https://btech.com/en/dell-vostro-3510-i3-15-6-1tb-4gb-ubuntu.html,1,1,9399.0,btech
+248,Intel Core i7-1195G7 - Hexa core,14.0,8.0,Intel Iris Xe Graphics,Dell,8,0,https://btech.com/en/dell-inspiron-5410-laptop-mp234.html,1,1,18333.0,btech
+249,Intel,15.6,8.0,Intel UHD,HP,256,0,https://btech.com/en/hp-15-dw3033dx-laptopwindows-10-silver.html,2,1,9599.0,btech
+250,Intel Core i3-10110U Dual core,15.6,4.0,Intel HD Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-i3-10110u-1tb-4gb-win-10-gy.html,2,1,8799.0,btech
+251,AMD Athlon-3020E 1.2 GHzp>,15.6,4.0,Radeon,Lenovo,0,1000,https://btech.com/en/lenovo-v15-laptop-amd-athlon-15-6-1tb-4gb.html,1,1,5444.0,btech
+252,AMD R5-4600H,15.6,16.0,Nvidia GTX1650Ti 4G,Lenovo,256,0,https://btech.com/en/lenovo-legion-5-amd-r5-4600h-1tb-256gb-bk.html,2,1,23899.0,btech
+253,Intel Core i7-1165G7,15.6,8.0,"NVIDIA GeForce MX330, 2GB",Dell,512,0,https://btech.com/en/dell-vostro-3500-i7-1165g7-512gb-8gb-ubuntu.html,1,1,16999.0,btech
+254,Intel Core i7-10870H,15.6,16.0,"NVIDIA GeForce RTX 3050, 4GB",Dell,512,0,https://btech.com/en/dell-g15-5510-i7-10870h-512gb-16gb-ubuntu-1639659076.html,1,0,21222.0,btech
+255,Intel,15.6,4.0,intel UHD,HP,0,1000,https://btech.com/en/hp-15-dw2060ne-laptop-windows-10-silver.html,2,1,11199.0,btech
+256,Intel Core i3-10110U Dual core,15.6,4.0,Intel HD Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-i3-10110u-1tb-4gb-win-10-bk.html,2,1,8799.0,btech
+257,Intel Core i3-10110U - Dual core,15.6,4.0,Intel UHD Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-v15iml-laptop-mp225.html,1,1,6666.0,btech
+258,AMD Ryzen 5-4600H,15.6,8.0,"NVIDIA GeForce GTX 1650 Ti, 4GB",Lenovo,256,0,https://btech.com/en/lenovo-legion-5-ryzen-4600h-1tb-8gb-win-bk.html,2,1,21199.0,btech
+259,Intel,13.3,8.0,Intel Iris XE,HP,256,0,https://btech.com/en/hp-envy-x360-13m-bd0063dx-laptop-win10-pale-gold.html,2,1,18199.0,btech
+260,Intel Core i7-1165G7,15.6,8.0,"NVIDIA GeForce MX330, 2GB",Dell,0,1000,https://btech.com/en/dell-vostro-3500-i7-1165g7-1tb-8gb-ubuntu.html,1,1,15999.0,btech
+261,Intel Core i7-11370H,15.6,16.0,Nvidia GeForce RTX 3050 4GB,Lenovo,512,0,https://btech.com/en/lenovo-gaming3-laptop-mp8130.html,1,0,21333.0,btech
+262,Intel Core i5-10500H 2.5GHz,15.6,8.0,NVIDIA GeForce GTX 1650,MSI,256,0,https://btech.com/en/msi-gf-series-laptop-intel-i5-2-5-ghz-256gb.html,2,1,20237.0,btech
+263,Intel Core i7-10750 2.6 GHz,15.6,8.0,NVIDIA GeForce GTX 1660 Ti,Lenovo,512,0,https://btech.com/en/lenovo-legion-5-laptop-intel-i7-2-6-ghz-512gb.html,2,1,31725.0,btech
+264,AMD Athlon 3020E,15.6,4.0,AMD Radeon Graphics,Lenovo,0,1000,https://btech.com/en/lenovo-ideapad-3-athlon-3020e-1tb-4gb-gy.html,1,1,6399.0,btech
+265,AMD Ryzen 7 5800H,15.6,16.0,"NVIDIA GeForce GTX 1650, 4GB",Lenovo,256,0,https://btech.com/en/lenovo-ideapad-gm-3-r7-5800h-16gb-1650-dos.html,1,0,19199.0,btech
+266,Intel Core i5-1135G7,14.0,8.0,Intel Iris Xe Graphics,Huawei,512,0,https://btech.com/en/huawei-matebook-d-14-2020-512gb-ssd-iris-sl.html,2,1,17199.0,btech
+267,Intel Core i5-1135G7,15.6,8.0,Intel Iris Xe Graphics,Huawei,256,0,https://btech.com/en/huawei-matebook-d-15-i5-1135g7-256gb-8gb-w10.html,2,1,14899.0,btech
+268,Intel Core i5-10500H,15.6,8.0,"NVIDIA GeForce GTX 1650, 4GB",Dell,256,0,https://btech.com/en/dell-g15-5510-i5-10500h-256gb-8gb-1650-dos-gy.html,1,0,16099.0,btech
+270,Intel Celeron N4020,15.6,4.0,Intel UHD Graphics 600 (integrated),Lenovo,0,1000,https://btech.com/en/lenovo-ip3-celeron-n4020-1tb-4gb-dos-gy.html,1,1,5999.0,btech

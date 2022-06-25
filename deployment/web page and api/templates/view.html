@@ -1,0 +1,117 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+{% endblock %}
+
+{% block body %}
+<form method="post" id="view">
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label name="minimum" class="control-label">Minimum:</label>
+                <input type="number" step="any" min="0.0" id="minimum" name="minimum"
+                    placeholder="Enter the Minimum price" class="form-control" required />
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label name="maximum" class="control-label">Maximum:</label>
+                <input type="number" step="any" min="0.0" id="maximum" name="maximum"
+                    placeholder="Enter the Maximum price" class="form-control" required />
+            </div>
+        </div>
+    </div>
+    <div class="row col mt-3">
+        <div class="form-group col">
+            <input type="submit" value="Check" class="btn btn-success col-12" />
+        </div>
+        <div class="form-group col">
+            <input type="reset" value="Reset" class="btn btn-primary col-12" />
+        </div>
+    </div>
+</form>
+<div id="checking-message" class="alert alert-light mt-3" role="alert">
+    <h4><span id="message">Waiting for input</span></h4>
+</div>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th scope="col">Graphics Card</th>
+            <th scope="col">HDD</th>
+            <th scope="col">Normal</th>
+            <th scope="col">OG_FID</th>
+            <th scope="col">OS</th>
+            <th scope="col">Processor</th>
+            <th scope="col">RAM</th>
+            <th scope="col">SSD</th>
+            <th scope="col">Screen Size</th>
+            <th scope="col">Brand</th>
+            <th scope="col">Field_1</th>
+            <th scope="col">Link</th>
+            <th scope="col">Price EG</th>
+            <th scope="col">Store</th>
+        </tr>
+    </thead>
+    <tbody id="output">
+
+    </tbody>
+</table>
+{% endblock %}
+
+{% block script %}
+<script>
+    $(document).on('submit', '#view', function (e) {
+        setTimeout(
+            function () {
+                $('#output').text('');
+            }, 1000);
+        e.preventDefault();
+        $('#checking-message').fadeOut(1000).fadeIn(1000);
+        $('#checking-message').addClass('alert-light');
+        setTimeout(
+            function () {
+                $('#message').text("Checking...");
+            }, 1000);
+
+        req = $.ajax({
+            type: 'POST',
+            url: '/view',
+            data: {
+                minimum: $("#minimum").val(),
+                maximum: $("#maximum").val()
+            }
+        })
+        $('#message').text("Making a list of laptops between these prices");
+        req.done(function (data) {
+            $('#checking-message').removeClass('alert-light');
+            $('#checking-message').addClass('alert-success');
+            setTimeout(
+                function () {
+                    $('#message').text("The matching laptop list:")
+                    if (data.list.length > 0) {
+                        for (var i = 0; i < data.list.length; i++) {
+                            var d = '';
+                            for (var key in data.list[i]) {
+                                var dd = data.list[i][key];
+                                d += '<td>' + dd + '</td>';
+                            }
+                            $('#output').append('<tr>' + d + '</tr>');
+                        }
+                    }
+                }, 1000);
+        })
+
+    });
+    $(document).on('reset', '#view', function (e) {
+        $('#checking-message').fadeOut(1000).fadeIn(1000);
+        $('#output').text('');
+        $('#checking-message').removeClass('alert-success');
+        $('#checking-message').addClass('alert-light');
+        setTimeout(
+            function () {
+                $('#message').text("Waiting for input");
+            }, 1000);
+    })
+
+</script>
+{% endblock %}

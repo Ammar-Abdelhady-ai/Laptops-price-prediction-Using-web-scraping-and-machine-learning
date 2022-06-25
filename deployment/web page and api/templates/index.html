@@ -1,0 +1,249 @@
+{% extends 'layout.html' %}
+
+{% block head %}
+
+{% endblock %}
+
+{% block body %}
+<form method="post" id="prediction-form">
+    <div class="row">
+        <div class="col-6">
+            <div class="form-group">
+                <label name="Processor" class="control-label">Processor:</label>
+                <input type="text" id="Processor" name="Processor" placeholder="Enter the processor model number"
+                    class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="RAM_GB" class="control-label">RAM:</label>
+                <input type="number" id="RAM_GB" name="RAM_GB" step="2" min="2" max="124"
+                    placeholder="Enter the amount of RAM in GBs" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="SSD_GB" class="control-label">SSD:</label>
+                <input type="number" step="any" min="0.0" id="SSD_GB" name="SSD_GB"
+                    placeholder="Enter the amount of SSD storage in GBs" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="Normal" class="control-label">Type:</label>
+                <select name="Normal" id="Normal" class="form-select" aria-label="Default select example">
+                    <option disabled selected>Is it for Normal use or Gaming</option>
+                    <option value="0">Normal</option>
+                    <option value="1">Gaming</option>
+                </select>
+            </div>
+        </div>
+        <div class="col-6">
+            <div class="form-group">
+                <label name="Graphics_Card" class="control-label">Graphics Card:</label>
+                <input type="text" id="Graphics_Card" name="Graphics_Card"
+                    placeholder="Enter the Graphics Card model number" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="Screen_Size_inch" class="control-label">screen size:</label>
+                <input type="number" step="any" min="8.1" max="27" id="Screen_Size_inch" name="Screen_Size_inch"
+                    placeholder="Enter the screen size in inchs" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="HDD_GB" class="control-label">HDD:</label>
+                <input type="number" step="any" min="0.0" id="HDD_GB" name="HDD_GB"
+                    placeholder="Enter the amount of HDD storage in GBs" class="form-control" />
+            </div>
+            <div class="form-group">
+                <label name="OS" class="control-label">Operating System:</label>
+                <select name="OS" id="OS" class="form-select" aria-label="Default select example">
+                    <option disabled selected>Which Operating System</option>
+                    <option value="0">Windows</option>
+                    <option value="1">MacOs</option>
+                    <option value="2">Linux</option>
+                </select>
+            </div>
+        </div>
+    </div>
+    <div class="row col mt-3">
+        <div class="form-group col">
+            <input type="submit" value="Evaluate" class="btn btn-success col-12" />
+        </div>
+        <div class="form-group col">
+            <input type="reset" value="Reset" class="btn btn-primary col-12" />
+        </div>
+    </div>
+</form>
+<div id="prediction-message" class="alert alert-light mt-3" role="alert">
+    <h4><span id="message">Waiting for input</span><span id="prediction"></span></h4>
+</div>
+<ul id="error-message" class="list-group mt-3 mb-3 d-none">
+</ul>
+
+
+{% endblock %}
+
+{% block script %}
+<script type="text/javascript">
+    $(document).on('submit', '#prediction-form', function (e) {
+        $('#prediction-message').removeClass('alert-danger');
+        $('#prediction-message').addClass('alert-light');
+        $('#error-message').text('');
+        e.preventDefault();
+        $('#prediction-message').fadeOut(1000).fadeIn(1000);
+        $('#message').text("Validating...")
+        setTimeout(
+            function () {
+                $('#message').text("Validating...")
+            }, 1000);
+        if (validation()) {
+            setTimeout(
+                function () {
+                    $('#message').text("Error")
+                }, 1000);
+            $('#prediction-message').removeClass('alert-light');
+            $('#prediction-message').addClass('alert-danger');
+            $('#error-message').fadeIn(1000);
+            $('#error-message').removeClass('d-none');
+        }
+        else {
+            req = $.ajax({
+                type: 'POST',
+                url: '/',
+                data: {
+                    Processor: $("#Processor").val(),
+                    Screen_Size_inch: $("#Screen_Size_inch").val(),
+                    RAM_GB: $("#RAM_GB").val(),
+                    Graphics_Card: $("#Graphics_Card").val(),
+                    SSD_GB: $("#SSD_GB").val(),
+                    HDD_GB: $("#HDD_GB").val(),
+                    OS: $("#OS").val(),
+                    Normal: $("#Normal").val()
+                }
+            })
+            $('#message').text("Making prediction for the laptop price");
+            $('#prediction').text("");
+            req.done(function (data) {
+                $('#prediction-message').removeClass('alert-light');
+                $('#prediction-message').addClass('alert-success');
+                setTimeout(
+                    function () {
+                        $('#message').text("The laptop price is ")
+                        $('#prediction').text(data.prediction + " EGP");
+                    }, 1000);
+            })
+        }
+    });
+    $(document).on('reset', '#prediction-form', function (e) {
+        $('#prediction-message').fadeOut(1000).fadeIn(1000);
+        $('#prediction-message').removeClass('d-none');
+        $('#error-message').fadeOut(1000);
+        $('#error-message').addClass('d-none');
+        $('#error-message').text('');
+        $('#prediction-message').removeClass('alert-success');
+        $('#prediction-message').addClass('alert-light');
+        setTimeout(
+            function () {
+                $('#message').text("Waiting for input");
+                $('#prediction').text("");
+            }, 1000);
+    })
+    function validation() {
+        $('#error-message').text("");
+        var err = false;
+        if (!cpuValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The Processor entered was not valid</li>');
+            err = true;
+        }
+        if (!gpuValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The Graphics Card entered was not valid</li>');
+            err = true;
+        }
+        if (!ramValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The RAM entered was not valid</li>')
+            err = true;
+        }
+        if (!storageValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The Storage oprion entered was not valid</li>')
+            err = true;
+        }
+        if (!typeValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The Type entered was not valid</li>')
+            err = true;
+        }
+        if (!osValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The Operating System entered was not valid</li>')
+            err = true;
+        }
+        if (!screenSizeValidator()) {
+            $('#error-message').append('<li class="list-group-item list-group-item-danger">The Screen Size entered was not valid</li>')
+            err = true;
+        }
+        return err;
+    }
+    function cpuValidator() {
+        var Processor = $('#Processor').val().toLowerCase();
+        if (Processor.includes("cpu") ||
+            Processor.includes("intel") || Processor.includes("xeon") ||
+            Processor.includes(" e") || Processor.includes("i3") ||
+            Processor.includes("i5") || Processor.includes("i7") ||
+            Processor.includes("i9") || Processor.includes("amd") ||
+            Processor.includes("ryzen") || Processor.includes("r3") ||
+            Processor.includes("r 3") || Processor.includes("r5") ||
+            Processor.includes("r 5") || Processor.includes("r7") ||
+            Processor.includes("r 7") || Processor.includes("m1") ||
+            containsAnyLetter(Processor.slice(Processor.length - 2)) ||
+            containsAnyLetter(Processor.slice(Processor.length - 1))) {
+            return true;
+        }
+        return false;
+    }
+    function gpuValidator() {
+        var Graphics_Card = $('#Graphics_Card').val().toLowerCase();
+        if (Graphics_Card.length >= 2 && (Graphics_Card.includes("gpu") ||
+            Graphics_Card.includes("nividia") || Graphics_Card.includes("rtx") ||
+            Graphics_Card.includes("gtx") || Graphics_Card.includes("geforce") ||
+            Graphics_Card.includes("quadro") || Graphics_Card.includes("amd") ||
+            Graphics_Card.includes("radeon") || Graphics_Card.includes("rx") ||
+            Graphics_Card.includes("vega") || Graphics_Card.includes("intel") ||
+            Graphics_Card.includes("iris") || Graphics_Card.includes("hd") ||
+            Graphics_Card.includes("m1") || Graphics_Card.includes("graphic"))) {
+            return true;
+        }
+        return false;
+    }
+    function ramValidator() {
+        var RAM = $('#RAM_GB').val();
+        if (RAM >= 2 && RAM <= 64) {
+            return true;
+        }
+        return false;
+    }
+    function storageValidator() {
+        var SSD = $('#SSD_GB').val();
+        var HDD = $('#HDD_GB').val();
+        if ((SSD == 0 && HDD == 0) || (SSD <= 0 || HDD <= 0) && (HDD >= 4000 || SSD >= 4000)) {
+            return false;
+        }
+        return true;
+    }
+    function screenSizeValidator() {
+        var Screen_Size = $('#Screen_Size_inch').val();
+        if (Screen_Size >= 8 && Screen_Size <= 30) {
+            return true;
+        }
+        return false;
+    }
+    function typeValidator() {
+        var Normal = $('#Normal').val();
+        if (Normal == 0 || Normal == 1) {
+            return true;
+        }
+        return false;
+    }
+    function osValidator() {
+        var OS = $('#OS').val();
+        if (OS == 0 || OS == 1 || OS == 2) {
+            return true;
+        }
+        return false;
+    }
+    function containsAnyLetter(str) {
+        return /[a-zA-Z]/.test(str);
+    }
+</script>
+{% endblock %}

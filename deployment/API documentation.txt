@@ -1,0 +1,23 @@
+{
+    "Processor": "intel core i5 100h",
+    "Screen Size(inch)": 15.6,
+    "RAM(GB)": 4,
+    "Graphics Card": "nvidia geforce rtx 3060", 
+    "SSD(GB)": 512.0,
+    "HDD(GB)": 0,
+    "OS": "windows",
+    "Normal": "gaming"
+
+}
+
+first enter processor name make sure that it complete 
+if it itell must have core i number 
+if amd or ryzen must contan amd num num or ryzen num num 
+screen size from 8 to 30
+ram between 1 to 64
+enter Graphics Card name make sure that it complete as "nvidia geforce rtx 3060"
+enter "SSD GB" integare number
+enter "HDD" integare number
+at lest one of hard must be mire than zero
+"OS" window , mac, "free" to free os as linux or chrome os
+Normal taks normal or gaming 
