@@ -33,9 +33,6 @@ This project is divided into five parts to demonstrate the process of collecting
 - Clone the repository and navigate to the project directory.
 - Install the required dependencies.
 - Run the appropriate scripts for data collection, preprocessing, model training, GUI development, and API deployment.
-
-## Contributing
-Contributions are welcome! Please follow the standard GitHub workflow:
 1. Fork the repository.
 2. Create a new branch (`git checkout -b feature/improvement`).
 3. Make your changes.
